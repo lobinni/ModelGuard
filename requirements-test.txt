@@ -1,0 +1,2 @@
+# Reproducible offline contract regression suite (Python >=3.11)
+pytest==8.3.5

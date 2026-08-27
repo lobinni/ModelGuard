@@ -1,0 +1,27 @@
+{
+  "network": "studionet",
+  "chainId": 61999,
+  "rpcUrl": "https://studio.genlayer.com/api",
+  "currentSource": {
+    "contractName": "AIModelGuard",
+    "source": "contracts/ai_model_guard.py",
+    "version": "3.0.0-provenance",
+    "requiredRegisterSignature": [
+      "model_name",
+      "architecture_text",
+      "artifact_url",
+      "content_hash"
+    ]
+  },
+  "latestKnownDeployment": {
+    "address": "0x4f7d45118D59Ab52e9BCF0899d7c5Cc421b6eBA8",
+    "deployer": "0xc782a9c1ee1cfdc7d26aaa3c0649cd6827fd6246",
+    "deployedAt": "2026-08-27T15:30:56Z",
+    "deployTxHash": null,
+    "sourceVersion": "2.0.0-substance",
+    "sourceCompatible": false,
+    "status": "legacy-requires-redeploy",
+    "notes": "This deployment has the two-gate audit but predates artifact_url, content_hash, content_hash_index, and the three-gate provenance audit. Do not point the current four-argument frontend at it for writes. Redeploy contracts/ai_model_guard.py and replace this record."
+  },
+  "explorer": "https://explorer-studio.genlayer.com/address/0x4f7d45118D59Ab52e9BCF0899d7c5Cc421b6eBA8"
+}

@@ -1,0 +1,36 @@
+# secrets
+.env
+.env.local
+.env.*.local
+
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+build/
+next-env.d.ts
+
+# production
+*.tsbuildinfo
+
+# Python / tests
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+*.pyc
+
+# misc
+.DS_Store
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# vercel
+.vercel

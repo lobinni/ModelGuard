@@ -1,0 +1,5 @@
+# Official GenLayer tooling (Python >=3.12), aligned with the official
+# genlayer-project-boilerplate. All references are immutable tags/commits.
+genlayer-py @ git+https://github.com/genlayerlabs/genlayer-py@v0.18
+genlayer-test @ git+https://github.com/genlayerlabs/genlayer-testing-suite@v0.29
+genvm-linter @ git+https://github.com/genlayerlabs/genvm-linter@fa4a4d4536b28fdc2730e13a983ba01b69ccc6f3
